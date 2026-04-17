@@ -11,7 +11,7 @@ addpath(fullfile(fileparts(mfilename('fullpath')), 'src'))
 addpath(fullfile(fileparts(mfilename('fullpath')), 'bfmatlab'))
 
 % load configuration
-cfg = stagingconfig2();
+cfg = config();
 
 % Create timestamped output folder and start diary there
 timestamp = datestr(now, 'yyyymmdd_HHMMSS');
