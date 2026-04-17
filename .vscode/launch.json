@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run MATLAB (batch)",
+            "preLaunchTask": "Run MATLAB (batch)",
+            "program": "${workspaceFolder}/main.m",
+            "runtimeExecutable": "matlab"
+        }
+    ]
+}
